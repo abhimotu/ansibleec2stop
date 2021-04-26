@@ -3,7 +3,7 @@ pipeline {
    agent any
 
    stages {
-      stage('Get Instance ID from AWS Private IPs') {
+      stage('Get Instance ID from AWS Private-IPs') {
         steps {
           sh """#!/bin/bash
           echo 'Retreiving...'
