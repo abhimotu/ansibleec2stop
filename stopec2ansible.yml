@@ -12,7 +12,7 @@
 
 
 
-       - name: Ansible Basic Variable Example
+       - name: Stop EC2
          debug:
             msg: "{{ instance_ids }}"
        - ec2:
