@@ -2,7 +2,7 @@ pipeline {
    agent any
 
    stages {
-      stage('Get Instance ID from Private IPs') {
+      stage('Get Instance ID from AWS Private IPs') {
         steps {
           echo 'Retreiving...'
           sh getInsID.sh
