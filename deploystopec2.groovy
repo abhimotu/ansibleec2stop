@@ -7,7 +7,7 @@ pipeline {
         steps {
           sh """#!/bin/bash
           echo 'Retreiving...'
-          getInsID.sh
+          sh getInsID.sh
         """
         }
    }
